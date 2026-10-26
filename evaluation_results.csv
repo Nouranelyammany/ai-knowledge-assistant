@@ -1,0 +1,44 @@
+﻿id,question,expected_source,retrieved_sources,retrieval_status,should_abstain,abstention_status,answer,error
+1,What are the four main functions of the NIST AI Risk Management Framework?,NIST.AI.100-1.pdf,NIST.AI.100-1.pdf,PASS,False,N/A,"The four main functions of the NIST AI Risk Management Framework (AI RMF) Core are:
+
+1. **GOVERN** [S2, S3]
+2. **MAP** [S2, S3]
+3. **MEASURE** [S2, S3]
+4. **MANAGE** [S2, S3]
+
+These high-level functions organize AI risk management activities [S2], are broken down further into categories and subcategories [S2, S3], and help organizations address AI system risks in practice [S3].",
+2,What is the purpose of the GOVERN function in the NIST AI Risk Management Framework?,NIST.AI.100-1.pdf,NIST.AI.100-1.pdf,PASS,False,N/A,"Based on the supplied documents, the purpose of the GOVERN function and related governance activities includes:
+
+* Serving as a cross-cutting function designed to inform and be infused throughout the other three functions (MAP, MEASURE, and MANAGE) [S3].
+* Applying to all stages of organizations' AI risk management processes and procedures [S4].
+* Helping organizations benefit from a purpose-driven culture focused on risk understanding and management once its structures, systems, processes, and teams are put in place [S2]. 
+* Establishing policies, processes, procedures, and practices across the organization related to mapping, measuring, and managing AI risks so that they are in place, transparent, and implemented effectively (GOVERN 1) [S2].
+* Putting accountability structures in place so that appropriate teams and individuals are empowered, responsible, and trained for mapping, measuring, and managing AI risks (GOVERN 2) [S1].",
+3,What is the purpose of the MAP function?,NIST.AI.100-1.pdf,NIST.AI.100-1.pdf,PASS,False,N/A,"Based on the provided documents, the purpose of the MAP function is to establish the context to frame risks related to an AI system [S1].",
+4,What is the purpose of the MEASURE function?,NIST.AI.100-1.pdf,,FAIL,False,N/A,I couldn't find sufficiently relevant information in the indexed documents to answer this question.,
+5,What is the purpose of the MANAGE function?,NIST.AI.100-1.pdf,NIST.AI.100-1.pdf,PASS,False,N/A,"Based on the provided documents, the specific purpose of the MANAGE function is not fully detailed, but the text notes that users typically continue to MEASURE or MANAGE after starting with the MAP function [S1], and mentions that under MANAGE, ""AI risks and benefits from third-party entities are managed"" [S2]. 
+
+The provided passages do not contain a complete definition of the purpose of the MANAGE function.",
+6,Why is GOVERN considered a cross-cutting function?,NIST.AI.100-1.pdf,NIST.AI.100-1.pdf,PASS,False,N/A,"Based on the provided document, the passages do not contain enough evidence to explain why GOVERN is considered a ""cross-cutting function."" The text only mentions that after instituting the outcomes in GOVERN, most users start with the MAP function [S1], and that there are categories and subcategories with elements that apply to multiple functions or logically precede certain decisions [S1], but it does not explicitly define or explain GOVERN as a cross-cutting function.",
+7,What is a data warehouse?,data-warehousing-on-aws.pdf,data-warehousing-on-aws.pdf,PASS,False,N/A,"A data warehouse is a central repository of information that comes from one or more data sources, such as transaction processing systems and other databases [S1]. Large enterprises use data warehouses for reporting and analytics purposes [S1]. 
+
+Specifically, data warehouses allow you to:
+* Run fast analytics on large volumes of data and use business intelligence (BI) tools to unearth hidden patterns [S2].
+* Allow data scientists to perform offline analytics and spot trends [S2].
+* Enable users across the enterprise to consume data through SQL queries, periodic reports, and dashboards to make critical business decisions [S2].",
+8,How do organizations use data warehouses for analytics?,data-warehousing-on-aws.pdf,data-warehousing-on-aws.pdf,PASS,False,N/A,"Organizations use data warehouses for analytics in several ways based on the provided documents:
+
+* **Reporting and Analytics:** Most large enterprises use data warehouses as central repositories for reporting and analytics purposes, gathering data from various sources such as transaction processing systems and other databases [S1].
+* **Running Fast Analytics and Uncovering Patterns:** Users run fast analytics on large volumes of data and leverage Business Intelligence (BI) tools to unearth hidden patterns [S2]. 
+* **Offline Analytics and Trend Spotting:** Data scientists query data warehouses to perform offline analytics and spot trends [S2].
+* **Enterprise Decision-Making:** Users across the enterprise consume data using SQL queries, periodic reports, and dashboards to make critical business decisions [S2].
+* **Company-Wide and Cross-Channel Insights:** Enterprises use data warehouses to collect data from various channel systems and public sources (such as weather and economic reports) to perform analytics on trends across channels, geographic performance, the effectiveness of advertisements and promotions, clothing line trends, external forces impacting sales, and the effects of store attributes on sales [S4].",
+9,What is a star schema?,data-warehousing-on-aws.pdf,,FAIL,False,N/A,I couldn't find sufficiently relevant information in the indexed documents to answer this question.,
+10,What is a snowflake schema?,data-warehousing-on-aws.pdf,,FAIL,False,N/A,I couldn't find sufficiently relevant information in the indexed documents to answer this question.,
+11,What is the difference between a data warehouse and a data lake?,data-warehousing-on-aws.pdf,data-warehousing-on-aws.pdf,PASS,False,N/A,"Based on the provided documents, a data warehouse is used to run fast analytics on large volumes of data, unearth hidden patterns, perform offline analytics (by data scientists), and allow enterprise users to consume data via SQL queries, periodic reports, and dashboards to make critical business decisions [S1]. 
+
+The provided passages do not contain enough evidence to provide a full comparison detailing what a data lake is used for or how it differs from a data warehouse.",
+12,What is the role of business intelligence tools when working with a data warehouse?,data-warehousing-on-aws.pdf,data-warehousing-on-aws.pdf,PASS,False,N/A,"Business intelligence (BI) tools are used by enterprise users to consume data from a data warehouse [S2]. Additionally, users such as data scientists, business analysts, and decision-makers access data that flows into a data warehouse by using BI tools, SQL clients, and other tools [S4].",
+13,What is Vodafone Egypt's current number of mobile subscribers?,,,N/A,True,PASS,I couldn't find sufficiently relevant information in the indexed documents to answer this question.,
+14,What is the current price of an iPhone 17 in Egypt?,,,N/A,True,PASS,I couldn't find sufficiently relevant information in the indexed documents to answer this question.,
+15,Who won the 2026 FIFA World Cup?,,,N/A,True,PASS,I couldn't find sufficiently relevant information in the indexed documents to answer this question.,
